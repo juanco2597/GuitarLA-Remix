@@ -132,3 +132,22 @@ main {
 .footer .copyright {
     text-align: center;
 }
+
+.error,
+.error-enlace {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.error-enlace {
+    display: block;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.error-warning {
+    color: rgb(204, 7, 7);
+    font-size: 8rem;
+}
