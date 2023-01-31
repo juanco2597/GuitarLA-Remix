@@ -94,7 +94,8 @@ export function CatchBoundary() {
 export function ErrorBoundary({ error }) {
     return (
         <Document>
-            <p className='error'>{error.status}{error.statusText}</p>
+            <p className='error error-warning'>{error.status}</p>
+            <p className='error'>{error.statusText}</p>
             <Link className='error-enlace' to="/">Tal vez quieras volver a la pagina principal</Link>
         </Document>
     )
